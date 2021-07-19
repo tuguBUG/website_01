@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+/*font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+
+*{box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+html, body{margin: 0; padding: 0; font-family: 'Source Sans Pro', sans-serif;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ul, ol{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+.font_paci{font-family: 'Pacifico', cursive;}
+
+#menu_01{}
+#menu_01 .wrap{height: auto;}
+#menu_01 .wrap .top{background: #000;height: 30px;}
+#menu_01 .wrap .top .txt_box{margin: 0 auto;width: 1160px;}
+#menu_01 .wrap .top .txt_box .left_box{font-size: 14px;font-weight: normal;float: left;}
+#menu_01 .wrap .top .txt_box .left_box ul{}
+#menu_01 .wrap .top .txt_box .left_box ul li{display: inline-block;padding: 8px 0;margin-right: 10px;}
+#menu_01 .wrap .top .txt_box .left_box ul li a{display: block;color: #fff;line-height: 1;}
+#menu_01 .wrap .top .txt_box .left_box ul li a i{}
+
+#menu_01 .wrap .top .txt_box .right_box{font-size: 14px;font-weight: normal;float: right;}
+#menu_01 .wrap .top .txt_box .right_box ul{}
+#menu_01 .wrap .top .txt_box .right_box ul li{display: inline-block;padding: 8px 0;margin-right: 10px;}
+#menu_01 .wrap .top .txt_box .right_box ul li:last-child{margin: 0;}
+#menu_01 .wrap .top .txt_box .right_box ul li a{display: block;color: #fff;line-height: 1;}
+#menu_01 .wrap .top .txt_box .right_box ul li a i{}
+
+
+
+
+
+
+
+
+
+
+#menu_01 .wrap .bottom{height: 66px;background-image: url(../img/1.jpg);background-position: 50% 37%;background-size: cover;}
+#menu_01 .wrap .bottom .dark{background: rgba(0,0,0,0.5);height: 100%;}
+#menu_01 .wrap .bottom .dark .box{margin: 0 auto;width: 1160px;padding: 0 10px;height: 100%;position: relative;}
+#menu_01 .wrap .bottom .dark .box .logo{float: left;}
+#menu_01 .wrap .bottom .dark .box .logo ul{}
+#menu_01 .wrap .bottom .dark .box .logo ul li{position: absolute;left: 0;top: 20px;}
+#menu_01 .wrap .bottom .dark .box .logo ul li a{}
+#menu_01 .wrap .bottom .dark .box .logo ul li a img{display: block;height: 26px;}
+#menu_01 .wrap .bottom .dark .box .menu{float: right;}
+#menu_01 .wrap .bottom .dark .box .menu ul{}
+#menu_01 .wrap .bottom .dark .box .menu ul li{display: inline-block;padding: 20px 0;}
+#menu_01 .wrap .bottom .dark .box .menu ul li a{font-size: 16px;color: #fff;font-weight: bold;padding: 0 20px;line-height: 1;}
+#menu_01 .wrap .bottom .dark .box .menu ul li:hover a{color: #f60;}
+#menu_01 .wrap .bottom .dark .box .menu .button{}
+
+/*background: rgba(255,255,255,0.6);width: 100%;height: 100%;*/
